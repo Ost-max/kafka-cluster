@@ -20,6 +20,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.kafka:spring-kafka'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.apache.kafka:kafka-streams'
     implementation 'org.apache.kafka:kafka-clients'
     implementation 'com.fasterxml.jackson.core:jackson-databind'
     compileOnly("org.projectlombok:lombok")

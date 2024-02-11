@@ -17,7 +17,7 @@ spring:
       retries: 3
     consumer:
       group-id: ${spring.application.name}
-      autoOffsetReset: earliest
+      autoOffsetReset: latest
       # Сериализаторы для всех типов
       keyDeserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
       valueDeserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
